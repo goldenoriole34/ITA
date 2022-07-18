@@ -1,51 +1,15 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
-}
-
-body {
-  background-color: aqua;
-  width: 100vw;
-  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
-  display: flex;
   height: 5vh;
   background-color: black;
-  color: white;
 }
 
-nav div {
-  width: 50vw;
-}
-
-#nav_left {
-  flex : 10;
-  
-}
-
-#nav_right {
-  display: flex;
-  
-}
-
-section {
+#video_area {
   height: 60vh;
   background-color: gray;
-}
-
-article {
-  height: 35vh;
-  display: flex;
-  background-color: white;
-}
-
-#왼쪽 {
-  flex-grow: 1;
-}
-
-#up_next {
-  flex-grow: 1;
 }
